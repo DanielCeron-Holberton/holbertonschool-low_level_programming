@@ -15,14 +15,12 @@ numberASCII = 48;
 spacesASCII = 32;
 while (numberASCII < 58)
 {
-if (numberASCII == 57)
-{
-commaASCII = 0;
-spacesASCII = 0;
-}
 putchar(numberASCII);
+if (numberASCII < 57)
+{
 putchar(commaASCII);
 putchar(spacesASCII);
+}
 numberASCII++;
 }
 putchar(10);
