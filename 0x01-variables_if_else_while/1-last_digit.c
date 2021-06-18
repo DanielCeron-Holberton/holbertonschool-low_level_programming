@@ -17,14 +17,14 @@ lastDigit = n % 10;
 if (lastDigit > 5)
 {
 printf("Last digit of %d ", n);
-printf("and is %d greater than 5\n", lastDigit);
+printf("is %d and is greater than 5\n", lastDigit);
 }
 else if (lastDigit == 0)
 {
 printf("Last digit of %d ", n);
-printf("and is %d 0\n", lastDigit);
+printf("is %d and is 0\n", lastDigit);
 }
-else if (lastDigit > 6)
+else
 {
 printf("Last digit of %d ", n);
 printf("and is %d less than 6 and not 0\n", lastDigit);
