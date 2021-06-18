@@ -16,7 +16,7 @@ while (letterLower < 123)
 putchar(letterLower);
 letterLower++;
 }
-while (letterUpper < 90)
+while (letterUpper < 91)
 {
 putchar(letterUpper);
 letterUpper++;
