@@ -7,4 +7,6 @@
 int _putchar(char);
 /* Print all alphabet */
 void print_alphabet(void);
+/* Print alphabet 10 times */
+void print_alphabet_x10(void);
 #endif /* _HOLBERTON_ */
