@@ -17,4 +17,6 @@ int _isalpha(int c);
 int print_sign(int n);
 /* Computes the absolute value of an integer */
 int _abs(int);
+/* Prints last digit of a number */
+int print_last_digit(int);
 #endif /* _HOLBERTON_ */
