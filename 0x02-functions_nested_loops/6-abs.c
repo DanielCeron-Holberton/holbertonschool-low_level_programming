@@ -3,7 +3,7 @@
  * _abs - Convert to the absolute value
  *
  *
- * @n - Parameter for input number
+ * @n: Parameter for input number
  *
  * Return: The return is abs number.
  *
