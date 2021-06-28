@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "holberton.h"
 /**
  * main - Entry point
  *
@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-_putchar("Holberton\n");
+_putchar("Holberton", 20);
 return (0);
 }
