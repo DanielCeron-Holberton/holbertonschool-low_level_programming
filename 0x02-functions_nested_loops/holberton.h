@@ -11,4 +11,6 @@ void print_alphabet(void);
 void print_alphabet_x10(void);
 /* Checks lower case */
 int _islower(int c);
+/* Checks Alpha Case */
+int _isalpha(int c);
 #endif /* _HOLBERTON_ */
