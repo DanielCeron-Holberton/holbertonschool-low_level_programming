@@ -3,23 +3,22 @@
  * print_last_digit - Print the last digit
  *
  *
- * @n: Input number
+ * @num1: Input number
  *
  * Return: the last digit
  *
  */
-
-int print_last_digit(int n)
+int print_last_digit(int num1)
 {
 /*Declaring variables*/
 int moduleNumber;
-/*Absolute converter*/
-if (n < 0)
-{
-n = n * -1;
-}
 /*Module*/
-moduleNumber = (n % 10);
+moduleNumber = (num1 % 10);
+/*Absolute converter*/
+if (moduleNumber < 0)
+{
+moduleNumber = (moduleNumber * -1);
+}
 _putchar(moduleNumber + '0');
 return (moduleNumber);
 }

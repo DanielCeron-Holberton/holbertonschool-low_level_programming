@@ -1,3 +1,4 @@
+#include <limits.h>
 #include "holberton.h"
 
 /**
@@ -7,6 +8,17 @@
  */
 int main(void)
 {
+	int r;
+
+	r = print_last_digit(INT_MIN);
+	_putchar('0' + r);
+	_putchar('\n');
+	return (0);
+	}
+
+
+/*int main(void)
+{
     int r;
 
     print_last_digit(98);
@@ -15,4 +27,5 @@ int main(void)
     _putchar('0' + r);
     _putchar('\n');
     return (0);
-}
+    }
+*/
