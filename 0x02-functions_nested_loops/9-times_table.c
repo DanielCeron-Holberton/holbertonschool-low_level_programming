@@ -4,36 +4,38 @@
  */
 void times_table(void)
 {
-int counter = 0;
-int multipleDigit = 0;
-int positionDigit = 0;
-int resultDigit1;
-int resultDigit2;
-while (counter < 90)
+int i;
+int multipleD = 0;
+int positionD = 0;
+for (i = 0; i < 90; i++)
 {
-resultDigit1 = (multipleDigit * positionDigit) / 10;
-resultDigit2 = (multipleDigit * positionDigit) % 10;
-if (resultDigit1 == 0)
+if (((multipleD * positionD) / 10) == 0)
 {
-_putchar(resultDigit2 + '0');
+putchar(((multipleD * positionD) % 10) + '0');
 }
 else
 {
-_putchar(resultDigit1 + '0');
-_putchar(resultDigit2 + '0');
+putchar(((multipleD * positionD) / 10) + '0');
+putchar(((multipleD * positionD) % 10) + '0');
 }
-if (positionDigit < 9)
+if (positionD < 9 && ((multipleD * positionD) / 10) == 0)
 {
-_putchar(',');
-_putchar(9);
+putchar(',');
+putchar(32);
+putchar(32);
 }
-positionDigit++;
-counter++;
-if (positionDigit == 10)
+else if
+(positionD < 9)
 {
-positionDigit = 0;
-multipleDigit++;
-_putchar(10);
+putchar(',');
+putchar(32);
+}
+positionD++;
+if (positionD == 10)
+{
+positionD = 0;
+multipleD++;
+putchar(10);
 }
 }
 }
