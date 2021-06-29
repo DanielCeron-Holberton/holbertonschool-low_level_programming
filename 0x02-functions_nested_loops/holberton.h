@@ -23,6 +23,8 @@ int print_last_digit(int);
 void jack_bauer(void);
 /* Prints the 9 times table */
 void times_table(void);
+/* Adds two integers*/
+int add(int, int);
 
 
 #endif /* _HOLBERTON_ */
