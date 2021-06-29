@@ -25,7 +25,7 @@ _putchar(resultDigit2 + '0');
 if (positionDigit < 9)
 {
 _putchar(',');
-_putchar(' ');
+_putchar(9);
 }
 positionDigit++;
 counter++;
