@@ -7,7 +7,7 @@ void times_table(void)
 int i;
 int multipleD = 0;
 int positionD = 0;
-for (i = 0; i < 90; i++)
+for (i = 0; i < 100; i++)
 {
 if (((multipleD * positionD) / 10) == 0)
 {
