@@ -11,31 +11,31 @@ for (i = 0; i < 90; i++)
 {
 if (((multipleD * positionD) / 10) == 0)
 {
-putchar(((multipleD * positionD) % 10) + '0');
+_putchar(((multipleD * positionD) % 10) + '0');
 }
 else
 {
-putchar(((multipleD * positionD) / 10) + '0');
-putchar(((multipleD * positionD) % 10) + '0');
+_putchar(((multipleD * positionD) / 10) + '0');
+_putchar(((multipleD * positionD) % 10) + '0');
 }
 if (positionD < 9 && ((multipleD * positionD) / 10) == 0)
 {
-putchar(',');
-putchar(32);
-putchar(32);
+_putchar(',');
+_putchar(32);
+_putchar(32);
 }
 else if
 (positionD < 9)
 {
-putchar(',');
-putchar(32);
+_putchar(',');
+_putchar(32);
 }
 positionD++;
 if (positionD == 10)
 {
 positionD = 0;
 multipleD++;
-putchar(10);
+_putchar(10);
 }
 }
 }
