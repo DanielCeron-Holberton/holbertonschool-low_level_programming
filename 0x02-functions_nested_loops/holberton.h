@@ -25,6 +25,7 @@ void jack_bauer(void);
 void times_table(void);
 /* Adds two integers*/
 int add(int, int);
-
+/* Print to 98 */
+void print_to_98(int n);
 
 #endif /* _HOLBERTON_ */
