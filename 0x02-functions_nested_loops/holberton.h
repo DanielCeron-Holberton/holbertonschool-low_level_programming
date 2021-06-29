@@ -13,7 +13,7 @@ void print_alphabet_x10(void);
 int _islower(int c);
 /* Checks Alpha Case */
 int _isalpha(int c);
-/* Prints the sign of a number*/
+/* Prints the sign of a number */
 int print_sign(int n);
 /* Computes the absolute value of an integer */
 int _abs(int);
@@ -21,4 +21,8 @@ int _abs(int);
 int print_last_digit(int);
 /* Prints every minute of the day of Jack Bauer */
 void jack_bauer(void);
+/* Prints the 9 times table */
+void times_table(void);
+
+
 #endif /* _HOLBERTON_ */
