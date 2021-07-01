@@ -24,6 +24,8 @@ void print_line(int n);
 void print_diagonal(int n);
 /*Prints a square*/
 void print_square(int size);
+/*Prints a triangle*/
+void print_triangle(int size);
 
 
 #endif /* _HOLBERTON_ */
