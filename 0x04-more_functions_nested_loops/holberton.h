@@ -16,7 +16,12 @@ int mul(int a, int b);
 void print_numbers(void);
 /*Print 1-9 without 2 and 4*/
 void print_most_numbers(void);
-/* 10 times numbers 0-14*/
+/*10 times numbers 0-14*/
 void more_numbers(void);
+/*Draws a straight line in the terminal*/
+void print_line(int n);
+/*Draws a diagonal line on the terminal*/
+void print_diagonal(int n);
+
 
 #endif /* _HOLBERTON_ */

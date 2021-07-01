@@ -12,12 +12,12 @@ while (num14 < 15)
 {
 if ((num14 / 10) != 0)
 {
-putchar((num14 / 10) + '0');
+_putchar((num14 / 10) + '0');
 }
-putchar((num14 % 10) + '0');
+_putchar((num14 % 10) + '0');
 num14++;
 }
-putchar(10);
+_putchar(10);
 num14 = 0;
 }
 }
