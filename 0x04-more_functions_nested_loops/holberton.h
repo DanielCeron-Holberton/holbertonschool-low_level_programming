@@ -22,6 +22,8 @@ void more_numbers(void);
 void print_line(int n);
 /*Draws a diagonal line on the terminal*/
 void print_diagonal(int n);
+/*Prints a square*/
+void print_square(int size);
 
 
 #endif /* _HOLBERTON_ */
