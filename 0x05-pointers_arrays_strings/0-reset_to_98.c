@@ -2,7 +2,7 @@
 /**
   * reset_to_98 - Change the value of n addressed in memory
   *
-  * @*n: pointer of the variable input
+  * @n: pointer of the variable input
   *
   */
 
