@@ -8,5 +8,8 @@
 int _putchar(char c);
 /*Updates the value it points to to 98*/
 void reset_to_98(int *n);
+/*Swaps the values of two integers*/
+void swap_int(int *a, int *b);
+
 
 #endif /* _HOLBERTON_ */
