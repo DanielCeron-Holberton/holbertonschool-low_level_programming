@@ -14,6 +14,8 @@ void swap_int(int *a, int *b);
 int _strlen(char *s);
 /*prints a string, followed by a new line*/
 void _puts(char *str);
+/* prints a string, in reverse, followed by a new line.*/
+void print_rev(char *s);
 
 
 #endif /* _HOLBERTON_ */
