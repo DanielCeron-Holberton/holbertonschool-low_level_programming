@@ -7,15 +7,11 @@
 
 void puts2(char *str)
 {
-int position;
-while (*str)
+for (int i = 0; str[i]; i++)
 {
-position = *str;
-if (position % 2 == 0)
+if(i % 2 == 0)
 {
-_putchar(*str);
+putchar(str[i]);
 }
-str++;
 }
-_putchar(10);
 }
