@@ -18,6 +18,8 @@ void _puts(char *str);
 void print_rev(char *s);
 /*reverses a string.*/
 void rev_string(char *s);
+/*Prints character*/
+void puts2(char *str);
 
 
 #endif /* _HOLBERTON_ */
