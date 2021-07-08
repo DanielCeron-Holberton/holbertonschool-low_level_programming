@@ -12,7 +12,7 @@ char *_strncat(char *dest, char *src, int n)
 	/*Declare and init vars*/
 	int i;
 	char *destPointer = dest;
-	int len;
+	int len = 0;
 	/*Lenght of string dest*/
 	while (*dest)
 	{
