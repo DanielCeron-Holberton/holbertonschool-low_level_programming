@@ -20,5 +20,5 @@ else
 printf("%d, ", a[i]);
 }
 }
-putchar(10);
+_putchar(10);
 }
