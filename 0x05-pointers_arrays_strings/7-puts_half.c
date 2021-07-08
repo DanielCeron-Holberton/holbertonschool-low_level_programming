@@ -11,19 +11,29 @@ int i;
 int len = 0;
 char *p = str;
 int n;
-while(*str)
+while (*str)
 {
 len++;
 str++;
 }
 str = p;
-n = len/2;
-for (i=0; str[i]; i++)
+for (i = 0; str[i]; i++)
 {
+if (len % 2 == 0)
+{
+n = len / 2;
 if (i >= n)
 {
 _putchar(str[i]);
 }
 }
-_putchar(10); 
+else if (len % 2 != 0)
+{
+n = (len - 1) / 2;
+if (i - 1 >= n)
+{
+_putchar(str[i]);
+}
+}
+}
 }
