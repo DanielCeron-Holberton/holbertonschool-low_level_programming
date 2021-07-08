@@ -7,6 +7,8 @@
 int _putchar(char c);
 /*Concatenated Strings*/
 char *_strcat(char *dest, char *src);
+/*concatenates two strings.*/
+char *_strncat(char *dest, char *src, int n);
 
 
 
