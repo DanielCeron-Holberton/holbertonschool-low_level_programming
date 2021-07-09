@@ -8,6 +8,8 @@
 int _strcmp(char *s1, char *s2)
 {
 int compare;
-compare = (*s1 - *s2);
+char *pointers1 = s1;
+char *pointers2 = s2;
+compare = (*pointers1 - *pointers2);
 return (compare);
 }
