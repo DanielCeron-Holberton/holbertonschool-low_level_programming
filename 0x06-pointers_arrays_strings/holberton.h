@@ -13,6 +13,8 @@ char *_strncat(char *dest, char *src, int n);
 char *_strncpy(char *dest, char *src, int n);
 /*Compares two strings*/
 int _strcmp(char *s1, char *s2);
+/*Reverse an array*/
+void reverse_array(int *a, int n);
 
 
 
