@@ -6,10 +6,10 @@
  * Return: Value of the compare
  */
 int _strcmp(char *s1, char *s2)
-{  
-int compare;
-char *pointer1 = s1;
-char *pointer2 = s2;
-compare = pointer1 - pointer2;
-return (compare);
+{
+	int compare = 0;
+	char *pointer1 = s1;
+	char *pointer2 = s2;
+	compare = pointer1 - pointer2;
+	return (compare);
 }
