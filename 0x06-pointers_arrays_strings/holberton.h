@@ -9,16 +9,18 @@ int _putchar(char c);
 char *_strcat(char *dest, char *src);
 /*Concatenates two strings.*/
 char *_strncat(char *dest, char *src, int n);
-/*copies a string*/
+/*Copies a string*/
 char *_strncpy(char *dest, char *src, int n);
 /*Compares two strings*/
 int _strcmp(char *s1, char *s2);
-/*Reverse an array*/
+/*Reverses an array*/
 void reverse_array(int *a, int n);
-/*Convert lower case in upper case*/
+/*Converts lower case in upper case*/
 char *string_toupper(char *);
-
-
+/*Capitalizes words */
+char *cap_string(char *);
+/*1337 encoder*/
+char *leet(char *);
 
 
 
