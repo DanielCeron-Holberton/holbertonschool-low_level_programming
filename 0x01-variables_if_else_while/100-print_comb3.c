@@ -16,7 +16,7 @@ int main(void)
 	{
 		for (j = '1'; j <= '9'; j++)
 		{
-			if (i < j && i > '0' | i == '0')
+			if (i < j && (i > '0') | (i == '0'))
 			{
 				putchar(i);
 				putchar(j);
@@ -32,4 +32,5 @@ int main(void)
 			}
 		}
 	}
+	return (0);
 }
