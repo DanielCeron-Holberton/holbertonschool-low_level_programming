@@ -22,7 +22,7 @@ for (k = '0'; k <= '9'; k++)
 {
 for (l = '1'; l <= '9'; l++)
 {
-if ((i != j) | (i == j && i == '0'))
+if (l > j)
 {
 putchar(i);
 putchar(j);
