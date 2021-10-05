@@ -1,5 +1,5 @@
-#ifndef _HOLBERTON_
-#define _HOLBERTON_
+#ifndef MAIN_HEADER
+#define MAIN_HEADER
 /*Including libraries*/
 #include <unistd.h>
 #include <stdio.h>
@@ -28,4 +28,4 @@ int add(int, int);
 /* Print to 98 */
 void print_to_98(int n);
 
-#endif /* _HOLBERTON_ */
+#endif /* MAIN_HEADER */

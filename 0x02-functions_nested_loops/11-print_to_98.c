@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * print_to_98 - Print until 98
  *

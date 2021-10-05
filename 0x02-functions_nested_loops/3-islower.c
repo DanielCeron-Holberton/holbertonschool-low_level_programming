@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * _islower - check lowercase character
  * @c: parameter for a character

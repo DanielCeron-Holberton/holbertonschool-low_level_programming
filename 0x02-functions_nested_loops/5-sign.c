@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * print_sign - Checks and print the sign of the number
  *
