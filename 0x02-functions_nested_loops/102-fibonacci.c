@@ -13,7 +13,7 @@ int main(void)
 	long int i = 0;
 	long int next = 0;
 
-	for (i = 1; i < 50; i++)
+	for (i = 1; i < 51; i++)
 	{
 		if (i < 49)
 		{
