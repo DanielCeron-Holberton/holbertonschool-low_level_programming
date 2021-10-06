@@ -27,5 +27,9 @@ void times_table(void);
 int add(int, int);
 /* Print to 98 */
 void print_to_98(int n);
+/*Print n times table*/
+void print_times_table(int n);
+
+
 
 #endif /* MAIN_HEADER */
