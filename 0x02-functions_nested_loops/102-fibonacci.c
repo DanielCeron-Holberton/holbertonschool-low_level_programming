@@ -27,5 +27,6 @@ int main(void)
 		f1 = f2;
 		f2 = next;
 	}
+	putchar(10);
 	return (0);
 }
