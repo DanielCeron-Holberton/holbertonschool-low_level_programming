@@ -26,6 +26,7 @@ int main(void)
 		next = f1 + f2;
 		f1 = f2;
 		f2 = next;
-		return (0);
+		
 	}
+	return (0);
 }
