@@ -10,7 +10,7 @@
 int main(void)
 {
 	int f1 = 1;
-	int f2 = 1;
+	unsigned int f2 = 1;
 	int i = 0;
 	int next = 0;
 
@@ -18,11 +18,11 @@ int main(void)
 	{
 		if (i < 97)
 		{
-			printf("%u, ", f2);
+			printf("%lu, ", f2);
 		}
 		else
 		{
-			printf("%u", f2);
+			printf("%lu", f2);
 		}
 		next = f1 + f2;
 		f1 = f2;
