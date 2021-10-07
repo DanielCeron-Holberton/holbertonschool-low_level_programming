@@ -10,7 +10,7 @@
 int main(void)
 {
 	int f1 = 1;
-	unsigned int f2 = 1;
+	unsigned long int f2 = 1;
 	int i = 0;
 	int next = 0;
 
