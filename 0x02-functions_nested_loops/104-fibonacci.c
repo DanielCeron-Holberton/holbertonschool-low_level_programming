@@ -9,12 +9,12 @@
 
 int main(void)
 {
-	int f1 = 1;
+	unsigned long int f1 = 0;
 	unsigned long int f2 = 1;
-	int i = 0;
-	int next = 0;
+	unsigned long int i = 0;
+	unsigned long int next = 0;
 
-	for (i = 1; i <= 98; i++)
+	for (i = 0; i < 98; i++)
 	{
 		if (i < 97)
 		{
