@@ -6,15 +6,11 @@
  *
  */
 
-
 int main(void)
 {
-	unsigned long int f1 = 1;
-	unsigned long int f2 = 1;
-	unsigned long int i = 0;
-	unsigned long int next = 0;
+	unsigned long int f2 = 1, i = 0, f1 = 0, sum = 0;
 
-	for (i = 0; i < 98; i++)
+	for (i = 0; i < 87; i++)
 	{
 		if (i < 97)
 		{
@@ -24,10 +20,11 @@ int main(void)
 		{
 			printf("%lu", f2);
 		}
-		next = f1 + f2;
+		sum = f1 + f2;
 		f1 = f2;
-		f2 = next;
+		f2 = sum;
 	}
-	putchar(10);
+
+	printf("\n");
 	return (0);
 }
