@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * main - Print 1-100 numbers with fizz & buzz
  *

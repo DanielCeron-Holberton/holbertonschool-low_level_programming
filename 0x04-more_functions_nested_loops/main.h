@@ -1,5 +1,5 @@
-#ifndef _HOLBERTON_
-#define _HOLBERTON_
+#ifndef MAIN_HEADER
+#define MAIN_HEADER
 
 /*Including libraries*/
 #include <unistd.h>
@@ -28,4 +28,4 @@ void print_square(int size);
 void print_triangle(int size);
 
 
-#endif /* _HOLBERTON_ */
+#endif /* MAIN_HEADER */

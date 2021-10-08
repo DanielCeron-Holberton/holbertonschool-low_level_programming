@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * print_triangle - Print a inversed triangle in terminal
  *

@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * print_diagonal - Print a line in diagonal terminal
  *
