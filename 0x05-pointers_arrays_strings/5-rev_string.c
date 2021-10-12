@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * rev_string - Print an input string in reverse
  * @s: Input string

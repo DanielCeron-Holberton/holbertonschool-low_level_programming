@@ -1,5 +1,5 @@
-#ifndef _HOLBERTON_
-#define _HOLBERTON_
+#ifndef MAIN_HEADER
+#define MAIN_HEADER
 
 /*_putchar function*/
 int _putchar(char c);
@@ -26,4 +26,4 @@ char *_strcpy(char *dest, char *src);
 
 
 
-#endif /* _HOLBERTON_ */
+#endif /* MAIN_HEADER */
