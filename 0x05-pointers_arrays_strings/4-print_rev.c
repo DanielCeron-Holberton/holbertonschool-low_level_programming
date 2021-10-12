@@ -10,6 +10,7 @@ void print_rev(char *str)
 int i;
 char *p = str;
 int len = 0;
+
 while (*p != '\0')
 {
 p++;
