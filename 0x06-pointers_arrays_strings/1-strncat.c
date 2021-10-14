@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * _strncat - Conc 2 str with n bytes
  * @dest: Input string 1

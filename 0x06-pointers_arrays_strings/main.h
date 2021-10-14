@@ -1,5 +1,5 @@
-#ifndef _HOLBERTON_
-#define _HOLBERTON_
+#ifndef MAIN_HEADER
+#define MAIN_HEADER
 /*Including libraries*/
 #include <stdio.h>
 #include <unistd.h>
@@ -24,4 +24,4 @@ char *leet(char *);
 
 
 
-#endif /* _HOLBERTON_ */
+#endif /* MAIN_HEADER */
