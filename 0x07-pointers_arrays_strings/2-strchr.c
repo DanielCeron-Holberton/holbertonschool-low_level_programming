@@ -10,22 +10,31 @@
 char *_strchr(char *s, char c)
 {
 	int i = 0;
+	int lenght = 0;
 	char *p;
-	
 
-
-	while (s[i])
+	while (s[lenght])
 	{
-		if (s[i] == c)
+		lenght++;
+	}
+
+	while (i <= lenght)
+	{
+		if (s[i] != c)
+		{
+
+			if (lenght == i)
+			{
+				return (NULL);
+			}
+
+			i++;
+		}
+		else if (s[i] == c)
 		{
 			p = &s[i];
 			return (p);
 		}
-
-				
-
-		i++;
 	}
-	p = '\0'; 
-	return (p);
+	return (s);
 }

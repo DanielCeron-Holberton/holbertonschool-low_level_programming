@@ -2,6 +2,8 @@
 #define MAIN_HEADER
 
 
+#include <stdio.h>
+
 
 /*Memset Function proto*/
 char *_memset(char *s, char b, unsigned int n);
