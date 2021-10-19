@@ -15,5 +15,7 @@ char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
 /*strspn Function proto*/
 unsigned int _strspn(char *s, char *accept);
+/*strpbrk Function proto*/
+char *_strpbrk(char *s, char *accept);
 
 #endif /* MAIN_HEADER */
