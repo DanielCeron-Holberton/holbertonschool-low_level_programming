@@ -30,11 +30,7 @@ char *_strpbrk(char *s, char *accept)
 
 		s++;
 	}
-	if (*s != *accept)
-	{
-		return (NULL);
-	}
 	
 
-	return (s);
+	return (NULL);
 }
