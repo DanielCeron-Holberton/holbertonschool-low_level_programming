@@ -21,6 +21,8 @@ char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 /*chessboard print*/
 void print_chessboard(char (*a)[8]);
+/*diagsums print*/
+void print_diagsums(int *a, int size);
 
 
 #endif /* MAIN_HEADER */
