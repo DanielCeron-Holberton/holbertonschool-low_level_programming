@@ -17,5 +17,10 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 /*strpbrk Function proto*/
 char *_strpbrk(char *s, char *accept);
+/*strstr Function Proto*/
+char *_strstr(char *haystack, char *needle);
+/*chessboard print*/
+void print_chessboard(char (*a)[8]);
+
 
 #endif /* MAIN_HEADER */
