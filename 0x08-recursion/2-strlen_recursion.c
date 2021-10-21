@@ -5,7 +5,7 @@
  *
  *
  * @s: entry string
- * 
+ *
  * Return: Lenght of the string
  */
 
