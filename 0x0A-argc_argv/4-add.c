@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main -  prints multiples arguments it receives.
+ * main - adds positive numbers.
  *
  * @argc: count the arguments passed
  * @argv: Array of the address values
- * Return: Zero if two additional arguments passed else return 1
+ * Return: Zero but if any char different than number passed returns 1
  */
 
 int main(int argc, char *argv[])
