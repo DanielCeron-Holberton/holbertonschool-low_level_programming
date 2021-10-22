@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 
 			compare = atoi(argv[i]);
 
-			if (compare > 0)
+			if (compare >= 0)
 			{
 				result += atoi(argv[i]);
 			}
