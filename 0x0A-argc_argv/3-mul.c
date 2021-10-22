@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 {
 	int i = 0;
 	int j = 0;
-
+	int result = 0;
 
 	if (argc != 3)
 	{
@@ -19,11 +19,13 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	else
-	{
-		i = *argv[1] - 48;
-		j = *argv[2] - 48;
+	{		
+		i = strtol(argv[1], NULL, 10);
+		j = strtol(argv[2], NULL, 10);
 
-		printf("%d\n", (i * j));
+		result = i * j;
+
+		printf("%d\n", result);
 	}
 
 	return (0);
