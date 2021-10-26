@@ -14,8 +14,12 @@ char *_strdup(char *str)
 {
 	int size = 0;
 	int i = 0;
-
 	char *newString;
+
+	if (str == NULL)
+	{
+		return (NULL);
+	}
 
 	for (size = 0; str[size]; size++)
 	{
