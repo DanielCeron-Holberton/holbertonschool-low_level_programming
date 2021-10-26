@@ -19,10 +19,10 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 	}
 	
-	gridAlloc = (int **)malloc(width * sizeof(int *));
+	gridAlloc = (int **)malloc(height * sizeof(int *));
 
-	for (i = 0; i < width; i++)
-		gridAlloc[i] = (int *)malloc(height * sizeof(int *));
+	for (i = 0; i < height; i++)
+		gridAlloc[i] = (int *)malloc(width * sizeof(int *));
 
 	if (gridAlloc == NULL)
 	{
