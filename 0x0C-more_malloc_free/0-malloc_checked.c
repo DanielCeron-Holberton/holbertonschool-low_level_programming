@@ -5,6 +5,7 @@
  *
  * @b: bytes to allocate
  *
+ * Return: Pointer to new allocated space
  */
 
 void *malloc_checked(unsigned int b)
