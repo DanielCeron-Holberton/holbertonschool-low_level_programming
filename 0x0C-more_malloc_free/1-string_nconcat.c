@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * string_nconcat - function that concatenates two strings with n bytes of the second string.
+ * string_nconcat - function that concatenates two
+ * strings with n bytes of the second string.
  * @n: bytes of the 2nd string
  * @s1: Entry string 1
  * @s2: Entry string 2
@@ -10,6 +11,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int long1 = 0, long2 = 0, total = 0, con1 = 0, con2 = 0;
 	char *p;
+
 	if (s1 == NULL)
 	{
 		s1 = "";
