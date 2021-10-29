@@ -5,7 +5,6 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <limits.h>
-#include <string.h>
 
 void simple_print_buffer(char *buffer, unsigned int size);
 void *malloc_checked(unsigned int b);
