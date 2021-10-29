@@ -24,10 +24,11 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 	}
 
-	for (; i <= (nmemb + size); i++)
+	for (i = 0; i <= (nmemb + size); i++)
 	{
 		pointer1[i] = 0;
 	}
+	free(pointer1);
 
 	return (pointer1);
 }
