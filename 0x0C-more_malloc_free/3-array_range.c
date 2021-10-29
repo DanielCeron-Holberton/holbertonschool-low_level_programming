@@ -2,7 +2,6 @@
 
 /**
  * array_range - new array
- * 
  * @min:min
  * @max:max
  * Return: INT
