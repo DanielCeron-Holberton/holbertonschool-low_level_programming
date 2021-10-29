@@ -28,7 +28,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		pointer1[i] = 0;
 	}
-	
 
 	return (pointer1);
 }
