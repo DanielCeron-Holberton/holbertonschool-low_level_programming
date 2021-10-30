@@ -12,6 +12,8 @@ void _print_rev_recursion(char *s);
 int _strlen_recursion(char *s);
 /*Factorial*/
 int factorial(int n);
+int sqrt_proc(int base, int n);
+int _sqrt_recursion(int n);
 
 
 
