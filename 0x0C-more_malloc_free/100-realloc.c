@@ -6,12 +6,14 @@
  * @ptr: entry allocated pointer
  * @old_size: old size in bytes
  * @new_size: new size in bytes
+ * Return: pointer reallocated in mem
  */
 
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	char *ptr2;
-	int i = 0;
+	unsigned int i = 0;
+
 	if (old_size == new_size)
 	{
 		return (ptr);
