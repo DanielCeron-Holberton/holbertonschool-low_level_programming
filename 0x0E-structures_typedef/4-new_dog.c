@@ -25,7 +25,7 @@ int _strlen(char *s)
 *Return: dest
 */
 
-char *__strcopy(char *dest, char *src)
+char *_strcopy(char *dest, char *src)
 {
 	int i = 0;
 
