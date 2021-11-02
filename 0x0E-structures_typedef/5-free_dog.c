@@ -4,7 +4,7 @@
 
 /**
  * free_dog - Frees dogs structures
- * 
+ *
  * @d: Entry structure
  */
 
