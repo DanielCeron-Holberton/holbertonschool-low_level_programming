@@ -14,6 +14,7 @@ void print_name(char *name, void (*f)(char *))
 	}
 	else
 	{
-		return;
+		name = "";
+		f(name);
 	}
 }
