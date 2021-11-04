@@ -9,24 +9,30 @@
 
 int main(int argc, char *argv[])
 {
-	int i = atoi(argv[1]);
-	int j = atoi(argv[3]);
+	int i = 0;
+	int j = 0;
 	char *p = argv[2];
-	int result;
+	int result = 0;
+	/*int argc_copy = argc;*/
 
-	if ((*p != '+' && *p != '-' && *p != '*' && *p != '/' && *p != '%') || strlen(p) > 1)
+	if (argc > 4 || argc <= 3)
+	{
+		printf("Error\n");
+		exit(98);
+	}
+
+	if ((*p != '+' && *p != '-' && *p != '*' && *p != '/' &&
+	     *p != '%') ||
+	    strlen(p) > 1)
 	{
 		printf("Error\n");
 		exit(99);
 	}
 
-	result = get_op_func(p)(i, j);
+	i = atoi(argv[1]);
+	j = atoi(argv[3]);
 
-	if (argc != 4)
-	{
-		printf("Error\n");
-		exit(98);
-	}
+	result = get_op_func(p)(i, j);
 
 	printf("%d \n", result);
 
