@@ -11,15 +11,15 @@ int main(int argc, char *argv[])
 {
 	int i = 0;
 	int j = 0;
-	char *p = argv[2];
 	int (*result)(int, int);
-	
+
 	if (argc != 4)
 	{
 		printf("Error\n");
 		exit(98);
 	}
-	if ( strlen(p) > 1)
+
+	if (strlen(argv[2]) > 1)
 	{
 		printf("Error\n");
 		exit(99);
@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 	i = atoi(argv[1]);
 	j = atoi(argv[3]);
 
-	result = get_op_func(p);
+	result = get_op_func(argv[2]);
 	if (result == NULL)
 	{
 		printf("Error\n");
