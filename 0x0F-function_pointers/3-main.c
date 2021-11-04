@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 
-	printf("%d \n", result(i, j));
+	printf("%d\n", result(i, j));
 
 	return (0);
 }
