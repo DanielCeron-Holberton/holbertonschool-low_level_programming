@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 	char *p = argv[2];
 	int result;
 
-	if (*p != '+' && *p != '-' && *p != '*' && *p != '/' && *p != '%')
+	if ((*p != '+' && *p != '-' && *p != '*' && *p != '/' && *p != '%') || strlen(p) > 1)
 	{
 		printf("Error\n");
 		exit(99);
