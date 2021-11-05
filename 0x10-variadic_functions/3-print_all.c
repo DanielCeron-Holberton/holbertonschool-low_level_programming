@@ -9,14 +9,13 @@
 void print_all(const char *const format, ...)
 {
 	va_list ap;
-	char *sval, *separator = ", ";
+	char *sval;
 	char cval;
 	float fval;
 	int ival;
 	int i = 0;
 
 	va_start(ap, format);
-
 	while (format && format[i])
 	{
 		switch (format[i])
@@ -43,10 +42,8 @@ void print_all(const char *const format, ...)
 			i++;
 			continue;
 		}
-		if (format[i + 1])
+		if (format[i + 1] != '\0')
 			printf(", ");
-
-		printf("%s", separator);
 		i++;
 	}
 	printf("\n");
