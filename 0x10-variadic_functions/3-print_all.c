@@ -9,7 +9,7 @@
 void print_all(const char *const format, ...)
 {
 	va_list ap;
-	char *sval, *p, *separator = ", ";
+	char *sval, *separator = ", ";
 	char cval;
 	float fval;
 	int ival;
