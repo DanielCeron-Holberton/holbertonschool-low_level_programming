@@ -1,5 +1,10 @@
 #include "lists.h"
-
+/**
+ * print_list - Print a linked list
+ *
+ * @h: header of a linked list
+ * Return: size of a linked list
+ */
 size_t print_list(const list_t *h)
 {
 	size_t i = 0;
