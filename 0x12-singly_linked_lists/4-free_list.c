@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
  * free_list - frees a linked list previosly
- * allocated in heap 
- * 
+ * allocated in heap
+ *
  * @head: entry head of the list
  */
 
