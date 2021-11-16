@@ -1,10 +1,10 @@
 #include "lists.h"
 /**
  * sum_listint - sum all the values in
- * a linked list 
- * 
+ * a linked list
+ *
  * @head: Entry node head
- * Return: int 
+ * Return: int
  */
 int sum_listint(listint_t *head)
 {

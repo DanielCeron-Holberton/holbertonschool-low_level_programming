@@ -4,7 +4,7 @@
  * the node
  *
  * @head:Entry header node
- * @return int 
+ * Return: int
  */
 int pop_listint(listint_t **head)
 {

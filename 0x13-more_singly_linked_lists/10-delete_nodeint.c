@@ -1,10 +1,10 @@
 #include "lists.h"
 /**
- * @brief 
- * 
- * @param head 
- * @index 
- * Return: int 
+ * delete_nodeint_at_index - deletes a node
+ *
+ * @head: entry head list
+ * @index: position of the node to delete
+ * Return: int
  */
 
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
@@ -18,7 +18,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 
 	if (index == 0)
 	{
-		*head = temp->next; 
+		*head = temp->next;
 		free(temp);
 		return (1);
 	}
@@ -36,6 +36,6 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 
 	free(temp->next);
 
-	temp->next = temp2; 
+	temp->next = temp2;
 	return (1);
 }

@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * free_listint - frees an Int linked list 
- * 
+ * free_listint - frees an Int linked list
+ *
  * @head:entry node
  */
 
