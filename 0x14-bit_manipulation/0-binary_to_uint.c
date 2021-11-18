@@ -10,15 +10,10 @@
 
 int _pow_recursion(int x, int y)
 {
-
 	if (y < 0)
-	{
 		return (-1);
-	}
 	else if (y == 0)
-	{
 		return (1);
-	}
 	return (x * _pow_recursion(x, y - 1));
 }
 
@@ -31,23 +26,17 @@ int _pow_recursion(int x, int y)
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int i = 0, j = 0;
-	unsigned int size = strlen(b);
+	unsigned int size = 0;
 
-	if (b == NULL || (*b != '0' && *b != '1'))
-	{
+	if (b == NULL)
 		return (0);
-	}
+	size = strlen(b);
 	for (; b[i]; i++)
 	{
 		if (b[i] != '0' && b[i] != '1')
-		{
 			return (0);
-		}
-
 		if (b[i] == '1')
-		{
 			j += (_pow_recursion(2, size - i)) / 2;
-		}
 	}
 	return (j);
 }
