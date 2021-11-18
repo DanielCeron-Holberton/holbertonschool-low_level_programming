@@ -33,7 +33,7 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int i = 0, j = 0;
 	unsigned int size = strlen(b);
 
-	if (b == NULL)
+	if (b == NULL || (*b != '0' && *b != '1'))
 	{
 		return (0);
 	}
