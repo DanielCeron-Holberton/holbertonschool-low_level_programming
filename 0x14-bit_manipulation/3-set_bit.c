@@ -4,7 +4,7 @@
  *
  * @n: entry number
  * @index: index of the number
- * Return: int 
+ * Return: int
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
