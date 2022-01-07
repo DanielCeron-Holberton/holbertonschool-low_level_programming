@@ -2,7 +2,7 @@
 /**
  * add_dnodeint - add node at the beggining
  *
- * @h: header of the linked list
+ * @head: header of the linked list
  * @n: value of the new node
  * Return: address of the new node
  */

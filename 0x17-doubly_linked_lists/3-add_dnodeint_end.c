@@ -1,5 +1,11 @@
 #include "lists.h"
-
+/**
+ * add_dnodeint_end - adds node at the last position
+ *
+ * @head: head of the linked list
+ * @n: new node value
+ * Return: head of the linked list
+ */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *new_node;
