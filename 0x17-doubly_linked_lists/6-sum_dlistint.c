@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
- * sum_dlistint - sum a list 
- * 
+ * sum_dlistint - sum a list
+ *
  * @head: head of a linked list
  * Return: sum of all values
  */

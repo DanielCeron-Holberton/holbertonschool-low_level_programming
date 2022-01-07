@@ -4,7 +4,7 @@
  *
  * @head: head of the link
  * @index: position
- * Return: address of the new node 
+ * Return: address of the new node
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
