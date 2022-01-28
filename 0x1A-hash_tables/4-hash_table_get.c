@@ -4,7 +4,7 @@
  *
  * @ht: Input hash table
  * @key: Input key string
- * Return: Value 
+ * Return: Value
  */
 
 char *hash_table_get(const hash_table_t *ht, const char *key)

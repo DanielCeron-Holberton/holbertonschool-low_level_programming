@@ -4,7 +4,7 @@
  * key_index - Finds the index where key has
  * to be located
  *
- * @key: key value to find index 
+ * @key: key value to find index
  * @size: size of table
  * Return: index
  */

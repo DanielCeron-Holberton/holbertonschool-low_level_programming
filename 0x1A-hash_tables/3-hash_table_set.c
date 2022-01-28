@@ -3,9 +3,9 @@
  * hash_table_set - set a new element in a hash table 
  * 
  * @ht: Input hash table
- * @key: Input key string 
- * @value: Input value 
- * Return: 1 in success 0 in error 
+ * @key: Input key string
+ * @value: Input value
+ * Return: 1 in success 0 in error
  */
 
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
