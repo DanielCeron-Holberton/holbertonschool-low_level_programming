@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 /**
- * hash_table_set - set a new element in a hash table 
- * 
+ * hash_table_set - set a new element in a hash table
+ *
  * @ht: Input hash table
  * @key: Input key string
  * @value: Input value
@@ -11,12 +11,10 @@
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	unsigned long int index;
-	hash_node_t *new_node = NULL;
-	hash_node_t *current = NULL;
+	hash_node_t *new_node = NULL, *current = NULL;
 
 	if (!key || strlen(key) == 0 || !ht || !value)
 		return (0);
-
 	index = key_index((unsigned char *)key, ht->size);
 	if (ht->array[index])
 	{
@@ -32,21 +30,17 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 			current = current->next;
 		}
 	}
-
 	new_node = malloc(sizeof(hash_node_t));
 	if (!new_node)
 		return (0);
-
 	new_node->key = strdup(key);
 	new_node->value = strdup(value);
 	new_node->next = NULL;
-
 	if (!ht->array[index])
 	{
 		ht->array[index] = new_node;
 		return (1);
 	}
-
 	new_node->next = ht->array[index];
 	ht->array[index] = new_node;
 
