@@ -29,9 +29,11 @@ void print_all(const char *const format, ...)
 		case 's':
 			val = va_arg(ap, char *);
 			if (!val)
+			{
 				printf("(nil)");
-			else
-				printf("%s", val);
+				break;
+			}
+			printf("%s", val);
 			break;
 		default:
 			i++;
