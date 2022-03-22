@@ -3,8 +3,9 @@
 
 CC = gcc
 SRC = main.c school.c
-OBJ = $(src:.c=.o)
+OBJ = $(SRC:.c=.o)
+NAME = school
 
 
-all: build1 build2
-	${CC} ${OBJ} -o school
+all: ${OBJ}
+	${CC} ${OBJ} -o ${NAME}
